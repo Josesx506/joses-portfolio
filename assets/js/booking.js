@@ -31,6 +31,11 @@ var user_roles = null;
 // On page load, initialize the Calendar
 // --------------------------------------------------------------------------------------------
 $(document).ready(function () {
+    // $getJSON("../datasets/bookings.json", function(data)) {
+    //     console.log(data)
+    // }
+    fetchJSONData();
+
     $("#calendar").evoCalendar({
         format: "mm/dd/yyyy", // "MM dd, yyyy",
         theme: 'Default',
@@ -59,6 +64,21 @@ radioButtons.forEach(function(radioButton) {
         console.log("Selected value:", user_roles);
     });
 });
+
+function fetchJSONData() {
+    fetch("./assets/datasets/bookings.json")
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error
+                    (`HTTP error! Status: ${res.status}`);
+            }
+            return res.json();
+        })
+        .then((data) => 
+              console.log(data))
+        .catch((error) => 
+               console.error("Unable to fetch data:", error));
+}
 
 
 // --------------------------------------------------------------------------------------------
