@@ -1,12 +1,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent-clr: #e7e7e8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --accent-clr: #212121;
   }
 }
 
@@ -28,6 +30,11 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.globalContainer {
+  width: min(95%, 1400px);
+  margin: 0 auto;
 }
 
 a {

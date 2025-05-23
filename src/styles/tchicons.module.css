@@ -1,0 +1,26 @@
+.parent {
+    opacity: 0.8;
+    cursor: pointer;
+    display: grid;
+    justify-items: center;
+    color: var(--foreground); 
+
+    &:hover {
+        color: var(--hoverColor);
+        opacity: 1;
+
+        & svg {
+            fill: var(--hoverColor);
+            stroke: var(--fillColor);
+        }
+    }
+}
+
+.parent svg {
+    width: 2em;
+    height: 2em;
+}
+
+.childName {
+    font-weight: 500;
+}
