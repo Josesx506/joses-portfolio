@@ -6,7 +6,6 @@
 .info {
   display: grid;
   gap: 2em;
-  height: 94vh;
 }
 
 .infoImage {
@@ -32,6 +31,7 @@
   .info {
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    height: 94vh;
   }
 }
 
