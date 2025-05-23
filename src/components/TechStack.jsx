@@ -8,10 +8,10 @@ import TechIcon from './icons/TechIcon';
 
 export default function TechStack() {
   return (
-    <div style={{ display: 'grid', gap: '0.75em' }}>
-      <h2 id="techStack">My Tech Stack</h2>
+    <section style={{ display: 'grid', gap: '0.75em' }}>
+      <h2 style={{textAlign:'center'}} id="techStack">My Tech Stack</h2>
       <h3>Front End</h3>
-      <div style={{ display: 'flex', gap: '1em' }}>
+      <div style={{ display: 'flex', gap: '1em', flexWrap:'wrap' }}>
         <TechIcon hoverColor={'rgb(228,77,38)'} name={'HTML'} > <FaHtml5 /> </TechIcon>
         <TechIcon hoverColor={'rgb(21,114,182)'} name={'CSS'} > <FaCss3Alt /> </TechIcon>
         <TechIcon hoverColor={'rgb(240,219,79)'} name={'JS'} > <IoLogoJavascript /> </TechIcon>
@@ -22,7 +22,7 @@ export default function TechStack() {
         <TechIcon hoverColor={'rgb(252,199,43)'} name={'Vitest'} > <SiVitest /> </TechIcon>
       </div>
       <h3>Backend</h3>
-      <div style={{ display: 'flex', gap: '1em' }}>
+      <div style={{ display: 'flex', gap: '1em', flexWrap:'wrap' }}>
         <TechIcon hoverColor={'rgb(131,205,41)'} name={'Node.js'} > <FaNodeJs /> </TechIcon>
         <TechIcon hoverColor={'rgb(247,223,50)'} fillColor={'rgb(53,106,151)'} name={'Python'} > <TbBrandPython /> </TechIcon>
         <TechIcon hoverColor={'var(--foreground)'} name={'Express'} > <SiExpress /> </TechIcon>
@@ -33,12 +33,12 @@ export default function TechStack() {
         <TechIcon hoverColor={'rgb(153,66,91)'} name={'Jest'} > <SiJest /> </TechIcon>
       </div>
       <h3>Others</h3>
-      <div style={{ display: 'flex', gap: '1em' }}>
+      <div style={{ display: 'flex', gap: '1em', flexWrap:'wrap' }}>
         <TechIcon hoverColor={'rgb(230,138,35)'} name={'TensorFlow'} > <SiTensorflow /> </TechIcon>
         <TechIcon hoverColor={'rgb(231,71,43)'} name={'Pytorch'} > <SiPytorch /> </TechIcon>
         <TechIcon hoverColor={'var(--foreground)'} name={'GitHub'} > <FaGithub /> </TechIcon>
         <TechIcon hoverColor={'rgb(253,152,39)'} name={'AWS'} > <FaAws /> </TechIcon>
       </div>
-    </div>
+    </section>
   )
 }
