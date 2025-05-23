@@ -33,7 +33,7 @@ body {
 }
 
 .globalContainer {
-  width: min(95%, 1400px);
+  width: min(95%, 1080px);
   margin: 0 auto;
 }
 

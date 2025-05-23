@@ -34,7 +34,7 @@ export const data = [
     {
         id: 'fpj5',
         title: 'Collision Alerts',
-        description: 'MLOps application with a model that predicts risks of accidents along driving routes in NYC.',
+        description: 'Web application with a custom ML inference pipeline that predicts risks of accidents along driving routes in NYC.',
         img: 'https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/featured_projects/CollisionAlerts.png',
         github: 'https://github.com/Josesx506/mlops_zoomcamp_24/tree/main/project',
         liveurl: null,

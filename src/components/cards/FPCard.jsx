@@ -7,7 +7,6 @@ export default function FPCard({ title, description, img, github, liveurl }) {
   return (
     <div style={{"--url": `url(${img})`}} className={styles.cardCntr}>
       <div className={styles.cardImg}>
-        {/* {img && <img src={} alt={`${title} project thumbnail`} />} */}
       </div>
       <div className={styles.cardDetails}>
         <h3>{title}</h3>
@@ -17,7 +16,7 @@ export default function FPCard({ title, description, img, github, liveurl }) {
             <LuGithub /> <Link href={github} target="blank">GitHub</Link>
           </div>
           {liveurl &&
-            <div><IoOpenOutline /> <Link href={liveurl} target="blank">Live</Link></div>}
+            <div><IoOpenOutline /> <Link href={liveurl} target="blank">Live demo</Link></div>}
         </div>
       </div>
     </div>

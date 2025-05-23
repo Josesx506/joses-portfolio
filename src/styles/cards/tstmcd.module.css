@@ -1,0 +1,33 @@
+.testimonialCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    width: min(95%, 700px);
+    margin: 0.25em auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyText {
+    padding: 0 1.3em;
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+}
+
+.rightQuote {
+    margin-left: auto;
+}
+
+
+.author {
+    margin-left: auto;
+    font-family: Inter;
+    font-style: oblique;
+}
