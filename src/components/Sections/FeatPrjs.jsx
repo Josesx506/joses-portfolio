@@ -1,4 +1,3 @@
-import React from 'react';
 import { data } from '@/data/featuredprjs';
 import FPCard from '../cards/FPCard';
 

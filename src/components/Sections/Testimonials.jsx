@@ -1,10 +1,9 @@
 'use client'
 
-import 'keen-slider/keen-slider.min.css';
-import { useKeenSlider } from 'keen-slider/react';
-
 import TestimonialCard from '@/components/cards/TestimonialCard';
 import { data } from '@/data/testimonials';
+import 'keen-slider/keen-slider.min.css';
+import { useKeenSlider } from 'keen-slider/react';
 
 export default function Testimonials() {
   const animation = { duration: 25000, easing: (t) => t }
@@ -54,8 +53,8 @@ export default function Testimonials() {
       <h2 style={{ textAlign: 'center' }} id='testimonials'>Testimonials</h2>
       <div ref={sliderRef} className="keen-slider">
         {data.map((entry, index) => (
-          <div className={`keen-slider__slide number-slide${index}`}>
-            <TestimonialCard key={entry.id} index={index} {...entry} />
+          <div key={entry.id} className={`keen-slider__slide number-slide${index}`}>
+            <TestimonialCard index={index} {...entry} />
           </div>
         ))}
       </div>

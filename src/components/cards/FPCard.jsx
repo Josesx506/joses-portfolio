@@ -1,7 +1,7 @@
+import styles from "@/styles/cards/ftprjcd.module.css";
 import Link from "next/link";
-import { LuGithub } from "react-icons/lu";
 import { IoOpenOutline } from "react-icons/io5";
-import styles from "@/styles/cards/ftprjcd.module.css"
+import { LuGithub } from "react-icons/lu";
 
 export default function FPCard({ title, description, img, github, liveurl }) {
   return (

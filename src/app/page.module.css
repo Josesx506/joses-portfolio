@@ -1,4 +1,42 @@
 .page {
   display: grid;
-  gap: 1.5em;
+  gap: 3em;
+}
+
+.info {
+  display: grid;
+  gap: 2em;
+  height: 94vh;
+}
+
+.infoImage {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.infoText {
+  display: grid;
+  gap: 0.75em;
+}
+
+.infoGreeting {
+  font-size: 2em;
+  font-family: 'Inter';
+}
+
+.infoSubtitle {
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+@media (min-width:641px) {
+  .info {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+}
+
+@media (min-width:1025px) {
+  .infoGreeting {
+  font-size: 3em;
+  }
 }
