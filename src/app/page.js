@@ -1,11 +1,11 @@
+import ContactDetails from "@/components/cards/ContactDetails";
 import PatentCard from "@/components/cards/PatentCard";
 import FeatPrjs from "@/components/Sections/FeatPrjs";
 import TechStack from "@/components/Sections/TechStack";
 import Testimonials from "@/components/Sections/Testimonials";
-import styles from "./page.module.css";
-import ContactDetails from "@/components/cards/ContactDetails";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           <picture>
             <source media="(min-width: 1025px)" srcSet="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard300ppi.webp" />
             <source media="(min-width: 641px)" srcSet="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard150ppi.webp" />
-            <img style={{ maxWidth: '100%', objectFit: 'contain' }} src="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard72ppi.webp" alt="Joses potrait Image" />
+            <img src="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard72ppi.webp" alt="Joses potrait Image" />
           </picture>
         </div>
         <div className={styles.infoText}>

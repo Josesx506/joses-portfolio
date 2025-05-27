@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --accent-clr: #e7e7e8;
+  --accent-clr: #949494;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +33,7 @@ body {
 }
 
 .globalContainer {
-  width: min(95%, 1080px);
+  width: min(95%, 1280px);
   margin: 0 auto;
 }
 

@@ -1,5 +1,6 @@
-import { Geist, Geist_Mono, Inter, Montserrat } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Montserrat, Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,6 +11,16 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const outfit = Outfit({
+  variable: "--font-outfit", subsets: ["latin"],
+  weight: ["400", "500", "600", "700"]
+})
+
+const ovo = Ovo({
+  variable: "--font-outfit", subsets: ["latin"],
+  weight: ["400"]
+})
 
 const monteserrat = Montserrat({
   variable: "--font-monteserrat", subsets: ["latin"],
@@ -29,8 +40,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${monteserrat.variable} ${inter.variable}`}>
+      <body className={`
+        ${geistSans.variable} ${geistMono.variable} 
+        ${monteserrat.variable} ${inter.variable}
+        ${outfit.variable} ${ovo.variable}
+        `}>
         <div className="globalContainer">
+          <NavBar />
           {children}
         </div>
       </body>
