@@ -6,6 +6,7 @@ import Testimonials from "@/components/Sections/Testimonials";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
+import pai_icon from '@/images/pai_icon.png'
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           </div>
           <h2 className={styles.infoSubtitle}>
             <span>Currently developing analytics tools for</span>
-            &nbsp;<Link target="blank" style={{whiteSpace:'nowrap', color:'rgb(21,112,239)'}} href={'https://powerlabstech.com/'}>PowerLabs <Image src={'/pai_icon.png'} width={20} height={20} alt="powerlabs logo" /></Link></h2>
+            &nbsp;<Link target="blank" style={{whiteSpace:'nowrap', color:'rgb(21,112,239)'}} href={'https://powerlabstech.com/'}>PowerLabs <Image src={pai_icon} width={20} height={20} alt="powerlabs logo" /></Link></h2>
           <ContactDetails />
         </div>
       </section>
