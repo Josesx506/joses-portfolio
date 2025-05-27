@@ -4,6 +4,8 @@ import TechStack from "@/components/Sections/TechStack";
 import Testimonials from "@/components/Sections/Testimonials";
 import styles from "./page.module.css";
 import ContactDetails from "@/components/cards/ContactDetails";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +22,9 @@ export default function Home() {
           <div className={styles.infoGreeting} >
             Hi 👋🏽. I&apos;m Joses, a fullstack developer based in Tucson, Arizona
           </div>
-          <h2 className={styles.infoSubtitle}>Currently developing analytics tools for PowerLabs</h2>
+          <h2 className={styles.infoSubtitle}>
+            <span>Currently developing analytics tools for</span>
+            &nbsp;<Link target="blank" style={{whiteSpace:'nowrap', color:'rgb(21,112,239)'}} href={'https://powerlabstech.com/'}>PowerLabs <Image src={'/pai_icon.png'} width={20} height={20} alt="powerlabs logo" /></Link></h2>
           <ContactDetails />
         </div>
       </section>
