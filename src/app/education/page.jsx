@@ -1,7 +1,7 @@
-import Conferences from '@/components/sections/Conferences';
-import FeatResearch from '@/components/sections/FeatResearch';
-import Publications from '@/components/sections/Publications';
-import Universities from '@/components/sections/Universities';
+import Conferences from '@/components/section/Conferences';
+import FeatResearch from '@/components/section/FeatResearch';
+import Publications from '@/components/section/Publications';
+import Universities from '@/components/section/Universities';
 
 export default function page() {
   const eduStyle = {
