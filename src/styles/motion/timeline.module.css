@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.avatarWrapper {
+  position: absolute;
+  left: -0.65rem;
+  z-index: 10;
+  display: flex;
+  top: 0;
+  height: 100%;
+}
+
+.avatarImageContainer {
+  position: relative;
+  height: 2.25rem;
+  width: 2.25rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid var(--accent-clr, #ffffff);
+  background-color: var(--accent-clr, #ffffff);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.avatarImageFill {
+  object-fit: cover;
+}
+
+.timelineBar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  top: 0;
+  width: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(232, 236, 239, 0.24);
+  box-shadow: inset 0 2px 1.5px rgba(165, 174, 184, 0.32);
+}
+
+.timelineProgress {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform-origin: bottom;
+  background: linear-gradient(to bottom, #818CF8, transparent);
+}

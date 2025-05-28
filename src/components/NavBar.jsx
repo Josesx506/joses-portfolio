@@ -55,7 +55,7 @@ export default function NavBar() {
               onClick={(e) => updateHash(e, '#featuredProjects')}
               href="/#featuredProjects">Projects</Link></li>
             <li><Link className={`${styles.navLink} ${pathname === '/education' ? styles.activelink : ''}`}
-              onClick={closeMenu} href="#">Education</Link></li>
+              onClick={closeMenu} href="/education">Education</Link></li>
             <li><Link className={`${styles.navLink} ${pathname === '/experience' ? styles.activelink : ''}`}
               onClick={closeMenu} href="#">Experience</Link></li>
           </ul>
