@@ -1,0 +1,20 @@
+.publicationsList {
+    display: grid;
+    gap: 0.75em;
+}
+
+.publicationItem {
+    display: inline;
+    & div {
+        display: inline;
+    }
+    & div + div, & a {
+        padding-left: 0.5em;
+    }
+}
+
+.publicationItem a {
+    color: rgb(12,95,165);
+    text-decoration: underline;
+    font-weight: bold;
+}

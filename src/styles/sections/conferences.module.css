@@ -1,0 +1,56 @@
+.annualConfCntr {
+    display: grid;
+    gap: 0.75em;
+}
+
+.annualConf h3 {
+    padding: 0.25em;
+    color: var(--foreground);
+    opacity: 75%;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 5%;
+        bottom: 0;
+        width: 90%;
+        border-bottom: 1px dashed var(--accent-clr);
+        padding-top: 1px;
+    }
+}
+
+.annualEvents {
+    display: grid;
+    gap: 0.5em;
+}
+
+.confEvt {
+    display: grid;
+}
+
+.confLogo {
+    display: none;
+}
+
+.evtAuthors {
+    font-style: oblique;
+    & span {
+        font-style: normal;
+    }
+}
+
+@media (min-width: 641px) {
+    .confEvt {
+        grid-template-columns: 1fr 4fr;
+        gap: 0.75em;
+    }
+
+    .confLogo {
+        display: block;
+        & img {
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.universities {
+    position: relative;
+}
+
+.uniList {
+    display: grid;
+    gap: 1em;
+}
+
+.eduItem {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 6px;
+}
+
+.uniName {
+    display: none;
+}
+
+.uniDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    & p {
+        line-height: 1.2;
+    }
+}
+
+.timelineCntr {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 0.5rem;
+    height: 100%;
+}
+
+@media (min-width: 641px) {
+    .eduItem {
+        grid-template-columns: 2fr 1fr 4fr;
+    }
+
+    .uniName {
+        display: block;
+
+        & h3 {
+            text-transform: uppercase;
+        }
+    }
+
+    .timelineCntr {
+        left: calc(28% - 1rem);
+    }
+}

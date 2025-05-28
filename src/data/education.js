@@ -14,7 +14,7 @@ const schools = [
             major: "Geophysics",
             minor: "Comp. Sci.",
             degree: "Ph.D.",
-            summary: "University of Arizona. Pivoted from ML to web development. Completed 2 internships with Seneca Resources and Los Alamos National Lab (LANL)."
+            summary: "PhD candidate at University of Arizona. Pivoted from ML to web development. Completed 2 internships with Seneca Resources and Los Alamos National Lab (LANL)."
         }
     },
     {   
@@ -200,5 +200,20 @@ const conferences = [
     }
 ]
 
+const articles = [
+    {
+        id: "rsch-001",
+        year: "2024",
+        title: "Monitoring microearthquakes of energy-storing salt domes in the Southeast US, Earthscope.",
+        url: "https://www.earthscope.org/news/monitoring-microearthquakes-of-energy-storing-salt-domes-in-the-southeast-us/"
+    },
+    {
+        id: "rsch-002",
+        year: "2022",
+        title: "Seismological Society of America At Work Monthly Column: Joses Omojola.",
+        url: "https://www.seismosoc.org/news/at-work-joses-omojola/"
+    }
+]
 
-export { conferences, publications, schools };
+
+export { conferences, publications, schools, articles };
