@@ -41,6 +41,33 @@ const schools = [
     },
 ]
 
+const publications = [
+    {
+        id: "pub-001", 
+        authors: "Omojola, J.|, and Persaud, P.",
+        year: "2024",
+        title: "Monitoring Salt Domes Used for Energy Storage with Microseismicity: Insights for a Carbon-Neutral Future.",
+        journal: "Geochemistry, Geophysics, Geosystems, 25, e2024GC011573.",
+        doi: "https://doi.org/10.1029/2024GC011573"
+     },
+    {
+        id: "pub-002", 
+        authors: "Charette-Migneault, F.,| Avery, R.,| Pondi, B.,| Omojola, J.|, Vaccari, S.,| Membari, P.,| & Sundwall, J.",
+        year: "2024",
+        title: "Machine Learning Model Specification for Cataloging Spatio-Temporal Models (Demo Paper).",
+        journal: "In Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (pp. 36-39).",
+        doi: "https://dl.acm.org/doi/abs/10.1145/3681769.3698586"
+     },
+    {
+        id: "pub-003", 
+        authors: "Omeru, T.,| Bankole, S. I.,| Jolly, B. A.,| Seyi, O. S.,| & | Omojola, J|.",
+        year: "2019",
+        title: "Assessment of the effect of mass-transport deposits on fault propagation in Penobscot area, offshore Nova Scotia.",
+        journal: "Geological Society, London, Special Publications, 477(1), 121-131.",
+        doi: "https://doi.org/10.1144/SP477.23"
+     }
+]
+
 const conferences = [
     {
         year: '2024',
@@ -174,4 +201,4 @@ const conferences = [
 ]
 
 
-export { conferences, schools };
+export { conferences, publications, schools };
