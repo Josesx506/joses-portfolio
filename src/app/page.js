@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className={styles.infoText}>
           <div className={styles.infoGreeting} >
-            Hi 👋🏽. I&apos;m Joses, a fullstack developer based in Tucson, Arizona
+            Hi 👋🏽. I&apos;m Joses, a fullstack developer based in Georgia, USA
           </div>
           <h2 className={styles.infoSubtitle}>
             <span>Currently developing analytics tools for</span>

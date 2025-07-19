@@ -1,0 +1,33 @@
+.long-tooltip {
+  padding: 0.1em 0.2em;
+  font-size: 0.7rem;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  position: relative;
+}
+
+.fieldName {
+  font-weight: 600;
+}
+
+.key {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.companyIcon {
+  position: absolute;
+  top: -25%;
+  right: 10%;
+  transform: translateX(50%);
+  padding: 0.5em 0em;
+  & > img {
+    max-width: 50px;
+  }
+}
+
+.resourceType {
+  font-style: oblique;
+}

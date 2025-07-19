@@ -38,6 +38,11 @@
     font-weight: 600;
     font-size: 1.3rem;
     letter-spacing: 0.05em;
+    & > img {
+        background-color: var(--accent-clr);
+        padding: 0.05em;
+        border-radius: 50%;
+    }
 }
 
 .navList {
@@ -54,12 +59,14 @@
 }
 
 .navLink {
-    color: var(--accent-clr);
+    color: var(--foreground);
+    opacity: 80%;
 }
 
 .navLink.activelink {
     color: var(--foreground);
     text-decoration: underline;
+    opacity: 100%;
 }
 
 @media (min-width:641px) {

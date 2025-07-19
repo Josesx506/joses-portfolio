@@ -4,6 +4,7 @@ import { SiGithub } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from 'next/link';
 import { MdOutlineEmail } from "react-icons/md";
+import { FaMediumM } from "react-icons/fa";
 
 export default function ContactDetails() {
   const svgStyle={width:'2rem',height:'2rem'}
@@ -15,6 +16,7 @@ export default function ContactDetails() {
       <Link target='blank' href={'https://github.com/Josesx506?tab=repositories'} ><SiGithub style={svgStyle} /></Link>
       <Link target='blank' href={'https://x.com/sui_generis_wj'} ><FaXTwitter style={svgStyle} /></Link>
       <Link target='blank' href={'mailto:josesomojola@gmail.com'} ><MdOutlineEmail style={svgStyle} /></Link>
+      <Link target='blank' href={'https://medium.com/@josesomojola'} ><FaMediumM style={svgStyle} /></Link>
     </div>
   )
 }

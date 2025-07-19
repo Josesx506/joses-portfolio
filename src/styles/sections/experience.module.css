@@ -1,0 +1,18 @@
+.mapsection {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1em;
+    height: 94vh;
+}
+
+.instructions {
+    display: grid;
+    gap: 0.3em;
+}
+
+.mapdiv {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
