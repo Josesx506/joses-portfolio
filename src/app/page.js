@@ -14,9 +14,9 @@ export default function Home() {
       <section id="intro" className={styles.info}>
         <div className={styles.infoImage}>
           <picture>
-            <source media="(min-width: 1025px)" srcSet="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard300ppi.webp" />
-            <source media="(min-width: 641px)" srcSet="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard150ppi.webp" />
-            <img src="https://wjtllhdmzciqcbkgbkqa.supabase.co/storage/v1/object/public/portfolio/my_pictures/Artboard72ppi.webp" alt="Joses potrait Image" />
+            <source media="(min-width: 1025px)" srcSet="/potrait/Artboard300ppi.webp" />
+            <source media="(min-width: 641px)" srcSet="/potrait/Artboard150ppi.webp" />
+            <img src="/potrait/Artboard72ppi.webp" alt="Joses potrait Image" />
           </picture>
         </div>
         <div className={styles.infoText}>

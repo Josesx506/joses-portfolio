@@ -43,7 +43,15 @@ const schools = [
 
 const publications = [
     {
-        id: "pub-001", 
+        id: "pub-004", 
+        authors: "Omojola, J.|, and Persaud, P.",
+        year: "2025",
+        title: "Detecting Urban Earthquakes with the San Fernando Valley Nodal Array and Machine Learning.",
+        journal: "Seismological Research Letters.",
+        doi: "https://doi.org/10.1785/0220250124"
+     },
+    {
+        id: "pub-003", 
         authors: "Omojola, J.|, and Persaud, P.",
         year: "2024",
         title: "Monitoring Salt Domes Used for Energy Storage with Microseismicity: Insights for a Carbon-Neutral Future.",
@@ -59,7 +67,7 @@ const publications = [
         doi: "https://dl.acm.org/doi/abs/10.1145/3681769.3698586"
      },
     {
-        id: "pub-003", 
+        id: "pub-001", 
         authors: "Omeru, T.,| Bankole, S. I.,| Jolly, B. A.,| Seyi, O. S.,| & | Omojola, J|.",
         year: "2019",
         title: "Assessment of the effect of mass-transport deposits on fault propagation in Penobscot area, offshore Nova Scotia.",
