@@ -7,6 +7,7 @@
   display: grid;
   gap: 2em;
   grid-template-rows: 1fr auto;
+  anchor-name: --info-anchor;
 }
 
 .infoImage {
@@ -34,6 +35,17 @@
 .infoSubtitle {
   font-family: 'Inter';
   font-weight: 500;
+}
+
+.prjNavArrow {
+  position: absolute;
+  bottom: anchor(--info-anchor bottom);
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.prjNavArrow:hover {
+  opacity: 0.8;
 }
 
 @media (min-width:641px) {

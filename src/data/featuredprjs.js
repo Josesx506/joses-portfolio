@@ -1,5 +1,13 @@
 export const data = [
     {
+        id: 'fpj8',
+        title: 'Stock Analyzer',
+        description: 'Single page application for evaluating company financial performance given a stock symbol.',
+        img: '/static/StockAnalyzer.png',
+        github: 'https://github.com/Josesx506/ticker-research',
+        liveurl: 'https://ticker-research.vercel.app/',
+    },
+    {
         id: 'fpj7',
         title: 'Mini-wiki RAG',
         description: 'Fullstack Retrieval-Augmented Generation (RAG) application with conversation features.',

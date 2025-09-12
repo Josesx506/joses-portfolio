@@ -6,7 +6,8 @@ import Testimonials from "@/components/section/Testimonials";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
-import pai_icon from '@/images/pai_icon.png'
+import pai_icon from '@/images/pai_icon.png';
+import { FaChevronCircleDown } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <ContactDetails />
         </div>
       </section>
+      <Link className={styles.prjNavArrow} href={"#featuredProjects"}><FaChevronCircleDown size={"2rem"} /></Link>
       <TechStack />
       <FeatPrjs />
       <section style={{ display: 'grid', gap: '0.75em' }}>
