@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className={styles.infoText}>
           <div className={styles.infoGreeting} >
-            Hi 👋🏽. I&apos;m Joses, a fullstack developer based in Georgia, USA
+            Hi 👋🏽. I&apos;m Joses, a fullstack developer based in Arizona, USA
           </div>
           <h2 className={styles.infoSubtitle}>
             <span>Currently developing analytics tools for</span>
@@ -43,6 +43,12 @@ export default function Home() {
         />
       </section>
       <Testimonials />
+      <footer  style={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <Image 
+          src="/sectigo_trust_seal_sm_82x32.png" 
+          alt="Sectigo Trust Logo"
+          width={82} height={32} />
+      </footer>
     </div>
   );
 }

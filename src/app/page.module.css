@@ -8,6 +8,7 @@
   gap: 2em;
   grid-template-rows: 1fr auto;
   anchor-name: --info-anchor;
+  position: relative;
 }
 
 .infoImage {
@@ -39,9 +40,12 @@
 
 .prjNavArrow {
   position: absolute;
-  bottom: anchor(--info-anchor bottom);
+  bottom: 1rem;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translateX(-50%);
+  z-index: 10;
+  /* bottom: anchor(--info-anchor bottom); */
+  /* transform: translate(-50%, -40%); */
 }
 
 .prjNavArrow:hover {
