@@ -78,6 +78,27 @@ const publications = [
 
 const conferences = [
     {
+        year: '2025',
+        events: [
+            {
+                id: "2025-01",
+                title: "Exploring the Cross-Fault Rupture Zone of the 2020 Mw 6.5 Monte Cristo Range Earthquake of the Central Walker Lane.",
+                authors: "Persaud, P.,| Omojola, J.,| Catchings, R.,| Goldman, M.",
+                image: scec_logo,
+                type: "Poster",
+                url: "https://central.scec.org/publication/14690"
+            },
+            {
+                id: "2025-02",
+                title: "Detecting Urban Earthquakes with the San Fernando Valley Nodal Array and Machine Learning.",
+                authors: "Omojola, J.,| Persaud, P",
+                image: agu_logo,
+                type: "Poster",
+                url: "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1885724"
+            },
+        ]
+    },
+    {
         year: '2024',
         events: [
             {
