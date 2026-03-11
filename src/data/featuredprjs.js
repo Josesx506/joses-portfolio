@@ -1,5 +1,13 @@
 export const data = [
     {
+        id: 'fpj9',
+        title: 'Real-time Analytics',
+        description: 'Go application demonstrating how Server-Side Events can improve dashboards.',
+        img: '/static/TemperatureChart.png',
+        github: 'https://github.com/Josesx506/gobroker',
+        liveurl: 'https://gobroker.vercel.app/charts',
+    },
+    {
         id: 'fpj8',
         title: 'Stock Analyzer',
         description: 'Single page application for evaluating company financial performance given a stock symbol.',
@@ -13,7 +21,7 @@ export const data = [
         description: 'Fullstack Retrieval-Augmented Generation (RAG) application with conversation features.',
         img: '/static/rag_wordcloud.png',
         github: 'https://github.com/Josesx506/llmzoomcamp-capstone',
-        liveurl: 'https://llmzoomcamp-capstone.vercel.app/',
+        liveurl: null,
     },
     {
         id: 'fpj6',

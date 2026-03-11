@@ -13,7 +13,7 @@ export default function ContactDetails() {
       <Link target='blank' href={'https://www.linkedin.com/in/joses-williams-299484100/'} >
         <FaLinkedin color='rgb(10,102,194)' style={svgStyle} />
       </Link>
-      <Link target='blank' href={'https://github.com/Josesx506?tab=repositories'} ><SiGithub style={svgStyle} /></Link>
+      <Link target='blank' href={'https://github.com/Josesx506'} ><SiGithub style={svgStyle} /></Link>
       <Link target='blank' href={'https://x.com/sui_generis_wj'} ><FaXTwitter style={svgStyle} /></Link>
       <Link target='blank' href={'mailto:josesomojola@gmail.com'} ><MdOutlineEmail style={svgStyle} /></Link>
       <Link target='blank' href={'https://medium.com/@josesomojola'} ><FaMediumM style={svgStyle} /></Link>
